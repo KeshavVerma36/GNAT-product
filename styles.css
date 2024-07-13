@@ -1,0 +1,89 @@
+.gradiant {
+  background: hsl(334, 78%, 4%);
+  background: linear-gradient(360deg, hsl(334, 78%, 4%) 0%, hsl(217, 68%, 16%) 100%);
+  background: -webkit-linear-gradient(360deg, hsl(334, 78%, 4%) 0%, hsl(217, 68%, 16%) 100%);
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hero-section .img {
+  height: auto;
+  width: 100%;
+}
+.hero-section .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+.hero-section .cards {
+  background-color: white;
+  border-radius: 25px;
+  height: 175px;
+  border: 3px solid #D92869;
+  color: #234B8B;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 40px;
+}
+.hero-section .cards:hover {
+  background-color: #D92869;
+  transform: translateX(10px);
+  color: #193461;
+}
+.hero-section .cards .explore {
+  display: inline-block;
+  margin-right: 20px;
+  color: #D92869;
+}
+.hero-section .cards .explore::after {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url("images/arrow.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: 5px;
+  left: 12px;
+}
+.hero-section .cards:hover .explore {
+  color: #ffffff;
+}
+
+.ndt-meters .card-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ndt-meters .img {
+  height: auto;
+  width: 100%;
+}
+.ndt-meters .img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+.ndt-meters .pd {
+  border: #D92869 3px solid;
+  border-radius: 20px;
+  font-size: 12px;
+  background-color: #08152A;
+  margin-top: 40px;
+}
+.ndt-meters .arrow-p::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("/images/arrow1.png");
+  background-size: cover;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}/*# sourceMappingURL=styles.css.map */

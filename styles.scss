@@ -1,0 +1,106 @@
+.gradiant {
+    background: hsla(334, 78%, 4%, 1);
+    background: linear-gradient(360deg, hsla(334, 78%, 4%, 1) 0%, hsla(217, 68%, 16%, 1) 100%);
+    background: -moz-linear-gradient(360deg, hsla(334, 78%, 4%, 1) 0%, hsla(217, 68%, 16%, 1) 100%);
+    background: -webkit-linear-gradient(360deg, hsla(334, 78%, 4%, 1) 0%, hsla(217, 68%, 16%, 1) 100%);
+  }
+  
+  .font {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .hero-section {
+    .img {
+      height: auto;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 16px;
+      }
+    }
+  
+    .cards {
+      background-color: white;
+      border-radius: 25px;
+      height: 175px;
+      border: 3px solid #D92869;
+      color: #234B8B;
+      transition: transform 0.3s ease-in-out;
+      margin-top: 40px;
+  
+      &:hover {
+        background-color: #D92869;
+        transform: translateX(10px);
+        color: #193461;
+      }
+  
+      .explore {
+        display: inline-block;
+        margin-right: 20px;
+        color: #D92869;
+  
+        &::after {
+          content: '';
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          background-image: url('images/arrow.png');
+          background-size: cover;
+          background-position: center;
+          position: relative;
+          top: 5px;
+          left: 12px;
+        }
+      }
+  
+      &:hover {
+        .explore {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+  
+  .ndt-meters {
+    .card-title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .img {
+      height: auto;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 16px;
+      }
+    }
+  
+    .pd {
+      border: #D92869 3px solid;
+      border-radius: 20px;
+      font-size: 12px;
+      background-color: #08152A;
+      margin-top: 40px;
+    }
+
+    .arrow-p {
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('/images/arrow1.png');
+        background-size: cover;
+        position: relative;
+        top: 5px;
+        left: 10px;
+      }
+    }
+  }
